@@ -1,0 +1,11 @@
+{
+  "scripts": {
+    "build": "next build",
+    "export": "next export",
+    "predeploy": "yarn build && yarn export",
+    "deploy": "gh-pages -d out"
+  },
+  "dependencies": {
+    "gh-pages": "^6.1.1"
+  }
+}
